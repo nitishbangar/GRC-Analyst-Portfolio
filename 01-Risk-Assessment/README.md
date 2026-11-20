@@ -55,23 +55,4 @@
 | R-05 | Excessive access (no least privilege) | 16 | CTO | Role-based access control |
 | R-15 | No security logging | 16 | IT Manager and CTO | Turn on CloudTrail and M365 audit logs; alerts |
 
-## Key findings
 
-1. **Access control is the biggest theme.** 5 of 15 risks come from too much access, missing MFA or no offboarding.
-2. **Cloud security needs attention.** 4 risks are in AWS (open ports, root account, admin rights, single region).
-3. **No policies, plans or monitoring.** Missing policies, no incident response plan and no logging would likely fail a SOC 2 audit.
-
-## Feeding back into the GRC program
-
-The risk assessment found new priorities, mainly **AWS security** and **security logging**, that were not in the original GRC objectives. These were added to the company profile objectives (#9–11).
-
-## Quick wins (first 30–90 days)
-
-- Enable MFA on the AWS root account (R-10, 1 month)
-- MFA on all accounts (R-02)
-- Turn on AWS CloudTrail and Microsoft 365 audit logs (R-15)
-- Disable leavers' accounts within 24 hours (R-04)
-
-## Skills shown
-
-Risk identification · 5×5 risk scoring · inherent vs residual risk · risk treatment (mitigate / accept / transfer) and risk acceptance sign-off · control ownership · PIPEDA and SOC 2 awareness · cloud (AWS) and third-party risk
